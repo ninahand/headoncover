@@ -27,20 +27,26 @@ flipThroughImages();
 
 
 let allSongs = [];
+let favoriteSongs =[];
 
 document.addEventListener("DOMContentLoaded", function(){
-    fetch("./data.json")
+    fetch("./data.json"
+    )
     .then ((response)=> response.json())
     .then((items) =>{
         items.forEach((item) => { 
             if(!allSongs.includes(item.title) && item.title){
                 allSongs.push(item.title);
-                console.log("allSongs", allSongs);
+            }
+            if (!favoriteSongs.includes(item.like) && item.like.toLowerCase() === 'really like') {
+                favoriteSongs.push(item.title);
+                console.log(favoriteSongs);
             }
 
             let songDescriptionWrapper = document.createElement('div');
             songDescriptionWrapper.classList.add("song-description-wrapper");
             songDescriptionWrapper.classList.add("hidden");
+
 
 
             let cover = document.createElement('img');
@@ -70,16 +76,20 @@ document.addEventListener("DOMContentLoaded", function(){
 
             let indexContainer = document.querySelector('.index-container');
             indexContainer.appendChild(songDescriptionWrapper);
+
+
         });
+        
     });
 });
 
 
 let titleButton = document.querySelector(".title-index");
-let gif = document.querySelector(".image-container");
 let index = document.querySelector('.song-description-wrapper');
 
 titleButton.addEventListener("click", (e) => {
+    let gif = document.querySelector('.image-container'); 
+
     let songDescriptionWrappers = document.querySelectorAll('.song-description-wrapper');
 
     if (gif.classList.contains('hidden')){
@@ -95,3 +105,4 @@ titleButton.addEventListener("click", (e) => {
     }
 
 });
+
