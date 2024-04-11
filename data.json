@@ -4,21 +4,21 @@
         "artist": "Minutemen",
         "record": "Double Nickels on the Dime",
         "like": "Really Like",
-        "image":  "./assets/images_full/1_minuteMen.jpg"
+        "image": "./assets/images_full/1_minuteMen.jpg"
     }, 
     {
         "title": "Symphony of Treble",
         "artist": "Blonde Redhead",
         "record": "Fake Can Be Just as Good",
         "like": "Really Like",
-        "image":  "./assets/images_full/2_blondeRedhead.jpg"
+        "image": "./assets/images_full/2_blondeRedhead.jpg"
     }, 
     {
         "title": "Everyone Knows",
         "artist": "Slowdive",
         "record": "Slowdive",
         "like": "Like",
-        "image":  "./assets/images_full/3_slowdive.jpg"
+        "image": "./assets/images_full/3_slowdive.jpg"
     }, 
     {
         "title": "Turkish Disco",
