@@ -1,5 +1,8 @@
 
 //found a similar function online + used ChatGPT to debug!
+
+//couldn't really figure out how to do with with JSON images, 
+//so instead just made an array using HTML...used JSON for the index aspect  
 function flipThroughImages() {
     let currentIndex = 1;
     let imageContainer = document.querySelector('.image-container');

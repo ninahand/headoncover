@@ -1,19 +1,25 @@
 
-.heading-container, .title-index{
+html{
+    margin:0;
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+.footing-container, .title-index{
     display:flex;
     justify-content: space-between;
     padding: 0.5%;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 1.4rem;
     color: #785E7B;
 }
 
-.heading-container{
-   
-        position: fixed;
-        bottom: 0;
-        width: 98vw;
-        background-color: white;
+
+.footing-container{
+    position: fixed;
+    bottom: 0;
+    width: 98vw;
+    background-color: white;
 }
 
 .title-index{
@@ -23,6 +29,8 @@
     background-color: white;
     z-index:100;
 }
+
+
 
 .title-index{
     cursor: pointer;
@@ -61,26 +69,34 @@
 }
 
 .song-description-wrapper {
-    margin-bottom: 10px;
+    margin-bottom: 1.5rem;
     font-family: arial;
     margin-left: 2.5%;
-}
-
-
-.artist {
-    font-size: 14px;
-
+    animation: slideInOutLeft 0.5s ease forwards;
+    opacity: 0;
+    visibility: hidden;
 }
 
 .cover{
     width: 10vw;
     height: auto
 }
-.song-description-wrapper {
-    animation: slideInOutLeft 0.5s ease forwards;
-    opacity: 0;
-    visibility: hidden;
+.song{
+    font-weight: bold;
 }
+.song, .artist{
+
+    font-size: 1.4rem;
+}
+.artist {
+   
+
+}
+
+.record{
+    font-size: 1.3rem;
+}
+
 
 @keyframes slideInOutLeft {
     from {
