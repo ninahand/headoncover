@@ -27,7 +27,6 @@ flipThroughImages();
 
 
 let allSongs = [];
-let favoriteSongs =[];
 
 document.addEventListener("DOMContentLoaded", function(){
     fetch("./data.json"
