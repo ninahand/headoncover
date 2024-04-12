@@ -5,7 +5,7 @@ html{
     box-sizing: border-box;
 }
 
-.footing-container, .heading-container{
+.footing-container, .left-container, .title-index{
     display:flex;
     justify-content: space-between;
     padding: 0.5%;
@@ -13,7 +13,7 @@ html{
     color: #785E7B;
 }
 
-.heading-container{
+.left-container{
     font-size: 1.6rem;
 }
 
@@ -33,6 +33,7 @@ html{
     width: 60vw;
     background-color: white;
     z-index:100;
+    font-size: 1.6rem;
 }
 
 .choose{
@@ -62,9 +63,7 @@ html{
     vertical-align: top; 
     margin-right: 10px; 
 }
-.top-ten{
-    display: none;
-}
+
 .hidden{
     display: none;
 }
@@ -86,29 +85,6 @@ html{
     visibility: hidden;
 }
 
-.filter-container{
-    margin-bottom: 2%;
-}
-
-/*
-.song-description-line {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-    border-bottom: 1px solid #ccc;
-}
-
-.song-description-line .song,
-.song-description-line .artist,
-.song-description-line .record {
-    margin-right: 10px;
-}
-
-.song-description-line.hidden {
-    display: none;
-}
-*/
 
 .cover{
     width: 10vw;
@@ -130,7 +106,6 @@ html{
     font-size: 1.3rem;
 }
 
-
 @keyframes slideInOutLeft {
     from {
         transform: translateX(-100%);
@@ -143,4 +118,27 @@ html{
         visibility: visible;
     }
 }
+.button-container button {
+    display: none; /* Initially hide the like buttons */
+}
 
+.button-container.visible button {
+    display: inline-block; /* Show the like buttons when the 'visible' class is applied */
+}
+.button-container button {
+    background-color: #4CAF50; /* Green background */
+    border: none;
+    color: white; /* White text */
+    padding: 15px 32px; /* Padding */
+    text-align: center; /* Center text */
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; /* Font size */
+    margin: 4px 2px; /* Margin */
+    cursor: pointer; /* Cursor on hover */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.button-container button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
