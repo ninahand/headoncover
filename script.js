@@ -112,17 +112,23 @@ titleButton.addEventListener("click", (e) => {
     let gif = document.querySelector('.image-container'); 
 
     let songDescriptionWrappers = document.querySelectorAll('.song-description-wrapper');
+    let buttonContainer = document.querySelector('.button-container')
 
     if (gif.classList.contains('hidden')){
         gif.classList.remove('hidden')
+        buttonContainer.style.backgroundColor = 'white'; 
         songDescriptionWrappers.forEach(wrapper=>{
             wrapper.classList.add('hidden');
+          
+        
         })
        
     } else{
         gif.classList.add('hidden')
+        buttonContainer.style.backgroundColor = '#7D6882'; 
         songDescriptionWrappers.forEach(wrapper=>{
             wrapper.classList.remove('hidden');
+            
         })
     }
 

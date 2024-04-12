@@ -40,7 +40,7 @@ html{
     z-index:101;
 }
 
-.title-index, .choose{
+.title-index{
     cursor: pointer;
     transition: all 300ms;
 }
@@ -118,27 +118,24 @@ html{
         visibility: visible;
     }
 }
-.button-container button {
-    display: none; /* Initially hide the like buttons */
-}
 
-.button-container.visible button {
-    display: inline-block; /* Show the like buttons when the 'visible' class is applied */
+.button-container button {
+    /* Remove the color styling */
+    /* color: white; */
+    /* Other styles remain unchanged */
 }
 .button-container button {
-    background-color: #4CAF50; /* Green background */
+ 
     border: none;
-    color: white; /* White text */
-    padding: 15px 32px; /* Padding */
-    text-align: center; /* Center text */
+    color: white;
+    background-color: transparent;
+    padding: 15px 32px; 
+    text-align: center; 
     text-decoration: none;
     display: inline-block;
-    font-size: 16px; /* Font size */
-    margin: 4px 2px; /* Margin */
-    cursor: pointer; /* Cursor on hover */
-    border-radius: 8px; /* Rounded corners */
+    font-size: 16px;
+    margin: 4px 2px; 
+    cursor: pointer; 
+
 }
 
-.button-container button:hover {
-    background-color: #45a049; /* Darker green on hover */
-}
