@@ -3,6 +3,7 @@
         "title": "The Glory of Man",
         "artist": "Minutemen",
         "record": "Double Nickels on the Dime",
+        "time": "1980s",
         "like": "Really Like",
         "image": "./assets/images_full/1_minuteMen.jpg"
     }, 
@@ -11,6 +12,7 @@
         "artist": "Blonde Redhead",
         "record": "Fake Can Be Just as Good",
         "like": "Really Like",
+        "time": "1990s",
         "image": "./assets/images_full/2_blondeRedhead.jpg"
     }, 
     {
@@ -18,6 +20,7 @@
         "artist": "Slowdive",
         "record": "Slowdive",
         "like": "Like",
+        "time": "2010s",
         "image": "./assets/images_full/3_slowdive.jpg"
     }, 
     {
@@ -25,366 +28,415 @@
         "artist": "Fugazi",
         "record": "Instrument Soundtrack",
         "like": "Like",
-        "image":  "./assets/images_full/4_fugazi.jpg"
+        "time": "1990s",
+        "image": "./assets/images_full/4_fugazi.jpg"
     }, 
     {
         "title": "Minlbelesh",
         "artist": "Hailu Mergia",
         "record": "Wede Harer Guzo",
         "like": "Really Like",
-        "image":  "./assets/images_full/5_hailuMergia.jpg"
+        "time": "2010s",
+        "image": "./assets/images_full/5_hailuMergia.jpg"
     }, 
     {
         "title": "In This Home on Ice",
         "artist": "Clap Your Hands Say Yeah",
         "record": "Clap Your Hands Say Yeah",
         "like": "Really Like",
-        "image":  "./assets/images_full/6_clapHands.jpg"
+        "time": "2000s",
+        "image": "./assets/images_full/6_clapHands.jpg"
     }, 
     {
         "title": "If You're Feeling Sinister",
         "artist": "Belle and Sebastian",
         "record": "If You're Feeling Sinister",
         "like": "Really Like",
-        "image":  "./assets/images_full/7_belleSebastian.jpg"
+        "time": "1990s",
+        "image": "./assets/images_full/7_belleSebastian.jpg"
     }, 
     {
         "title": "I Can Change",
         "artist": "LCD Soundsystem",
         "record": "This is Happening",
         "like": "Really Like",
-        "image":  "./assets/images_full/8_lcdSoundsystem.jpg"
+        "time": "2010s",
+        "image": "./assets/images_full/8_lcdSoundsystem.jpg"
     }, 
     {
         "title": "Logos",
         "artist": "Atlas Sound",
         "record": "Logos",
         "like": "Like",
-        "image":  "./assets/images_full/9_atlasSound.jpg"
+        "time": "2000s",
+        "image": "./assets/images_full/9_atlasSound.jpg"
     }, 
     {
         "title": "Since You're Gone",
         "artist": "The Cars",
         "record": "Shake It Up",
         "like": "Really Like",
-        "image":  "./assets/images_full/10_cars.jpg"
+        "time": "1980s",
+        "image": "./assets/images_full/10_cars.jpg"
     },
     {
         "title": "By This River",
         "artist": "Brian Eno",
         "record": "Before And After Science",
         "like": "Really Like",
-        "image":  "./assets/images_full/11_brianEno.jpg"
+        "time": "1970s",
+        "image": "./assets/images_full/11_brianEno.jpg"
     },
     {
         "title": "Orlando",
         "artist": "Exploded View",
         "record": "Exploded View",
         "like": "Like",
-        "image":  "./assets/images_full/12_explodedView.jpg"
+        "time": "2010s",
+        "image": "./assets/images_full/12_explodedView.jpg"
     },
     {
         "title": "Anywhere I Lay My Head",
         "artist": "Tom Waits",
         "record": "Rain Dogs",
         "like": "Like",
-        "image":  "./assets/images_full/13_tomWaits.jpg"
+        "time": "1980s",
+        "image": "./assets/images_full/13_tomWaits.jpg"
     },
     {
         "title": "Usual Dosage",
         "artist": "Unwound",
         "record": "New Plastic Ideas",
         "like": "Like",
-        "image":  "./assets/images_full/13_unwound.jpg"
+        "time": "1990s",
+        "image": "./assets/images_full/13_unwound.jpg"
     },
-
     {
         "title": "Love Is Overtaking Me",
         "artist": "Arthur Russell",
         "record": "Love Is Overtaking Me",
         "like": "Really Like",
-        "image":  "./assets/images_full/14_arthurRussell.jpg"
+        "time": "2000s",
+        "image": "./assets/images_full/14_arthurRussell.jpg"
     },
     {
         "title": "TV Dinners",
         "artist": "MJ Lenderman",
         "record": "Knockin'",
         "like": "Like",
-        "image":  "./assets/images_full/15_mjLenderman.jpg"
+        "time": "2020s",
+        "image": "./assets/images_full/15_mjLenderman.jpg"
     },
     {
         "title": "Change of Destination",
         "artist": "Monade",
         "record": "Monstre Cosmic",
         "like": "Like",
-        "image":  "./assets/images_full/16_monade.jpg"
+        "time": "2000s",
+        "image": "./assets/images_full/16_monade.jpg"
     },
     {
         "title": "Lawns",
         "artist": "Car Seat Headrest",
         "record": "My Back Is Killing Me Baby",
         "like": "Really Like",
-        "image":  "./assets/images_full/17_carSeat.jpg"
+        "time": "2010s",
+        "image": "./assets/images_full/17_carSeat.jpg"
     },
-     {
+    {
         "title": "Let's Move to the Country",
         "artist": "Smog",
         "record": "Knock Knock",
         "like": "Like",
-        "image":  "./assets/images_full/18_smog.jpg"
+        "time": "1990s",
+        "image": "./assets/images_full/18_smog.jpg"
     },
-     {
+    {
         "title": "Mythological Beauty",
         "artist": "Big Thief",
         "record": "Capacity",
         "like": "Really Like",
-        "image":  "./assets/images_full/19_bigThief.jpg"
+        "time": "2010s",
+        "image": "./assets/images_full/19_bigThief.jpg"
     },
-
     {
         "title": "Maria",
         "artist": "Greg Mendez",
         "record": "Greg Mendez",
         "like": "Like",
-        "image":  "./assets/images_full/20_gregMendez.jpg"
+        "time": "2020s",
+        "image": "./assets/images_full/20_gregMendez.jpg"
     },
     {
         "title": "Dear Someone",
         "artist": "Gillian Welch",
         "record": "Time (The Revelator)",
         "like": "Like",
-        "image":  "./assets/images_full/21_gillianWelch.jpg"
+        "time": "2000s",
+        "image": "./assets/images_full/21_gillianWelch.jpg"
     },
     {
         "title": "The Acrobats (demo)",
         "artist": "Helvetia",
         "record": "Gladness (2001-2006)",
-        "like": "",
-        "image":  "./assets/images_full/22_helvetia.jpg"
+        "like": "Really Like",
+        "time": "2000s",
+        "image": "./assets/images_full/22_helvetia.jpg"
     },
     {
         "title": "Let Me Go Let Me Go Let Me Go",
         "artist": "Jason Molina",
         "record": "Let Me Go, Let Me Go, Let Me Go",
         "like": "Really Like",
-        "image":  "./assets/images_full/23_jasonMolina.jpg"
+        "time": "2000s",
+        "image": "./assets/images_full/23_jasonMolina.jpg"
     },
     {
         "title": "Grandeza",
         "artist": "Sessa",
         "record": "Grandeza",
         "like": "Like",
-        "image":  "./assets/images_full/24_sessa.jpg"
+        "time": "2010s",
+        "image": "./assets/images_full/24_sessa.jpg"
     },
     {
         "title": "Dustin Hoffman Quits Bathroom and Climbs a Tree",
         "artist": "Of Montreal",
         "record": "The Early Four Track Recordings",
         "like": "Really Like",
-        "image":  "./assets/images_full/25_ofMontreal.jpg"
+        "time": "2000s",
+        "image": "./assets/images_full/25_ofMontreal.jpg"
     },
     {
         "title": "John Cage Bubblegum",
         "artist": "Stereolab",
         "record": "Refried Ectoplasm [Switched On Volume 2]",
         "like": "Like",
-        "image":  "./assets/images_full/26_stereolab.jpg"
+        "time": "1990s",
+        "image": "./assets/images_full/26_stereolab.jpg"
     },
     {
         "title": "One of the Crowd",
         "artist": "Swell Maps",
         "record": "International Rescue",
         "like": "Really Like",
-        "image":  "./assets/images_full/27_swellMaps.jpg"
+        "time": "1990s",
+        "image": "./assets/images_full/27_swellMaps.jpg"
     },
     {
         "title": "For No One",
         "artist": "The Beatles",
         "record": "Revolver",
         "like": "Really Like",
-        "image":  "./assets/images_full/28_theBeatles.jpg"
+        "time": "1960s",
+        "image": "./assets/images_full/28_theBeatles.jpg"
     },
     {
         "title": "Hot On Heels of Love",
         "artist": "Throbbing Gristle",
         "record": "20 Jazz Funk Greats",
         "like": "Really Like",
-        "image":  "./assets/images_full/29_throbbingGristle.jpg"
+        "time": "1970s",
+        "image": "./assets/images_full/29_throbbingGristle.jpg"
     },
     {
         "title": "Big Time Sensuality",
         "artist": "Bjork",
         "record": "Debut",
         "like": "Like",
-        "image":  "./assets/images_full/31_bjork.jpg"
+        "time": "1990s",
+        "image": "./assets/images_full/31_bjork.jpg"
     },
     {
         "title": "It Ain't Hard to Tell",
         "artist": "Nas",
         "record": "Illmatic",
         "like": "Like",
-        "image":  "./assets/images_full/33_nas.jpg"
+        "time": "1990s",
+        "image": "./assets/images_full/33_nas.jpg"
     },
     {
         "title": "She's a Jar",
         "artist": "Wilco",
         "record": "Summerteeth",
         "like": "Really Like",
-        "image":  "./assets/images_full/34_wilco.jpg"
+        "time": "1990s",
+        "image": "./assets/images_full/34_wilco.jpg"
     },
     {
         "title": "Sign the Dotted Line",
         "artist": "Tall Dwarfs",
         "record": "Weeville",
         "like": "Like",
-        "image":  "./assets/images_full/35_tallDwarfs.jpg"
+        "time": "1990s",
+        "image": "./assets/images_full/35_tallDwarfs.jpg"
     },
     {
         "title": "That's Us/Wild Combination",
         "artist": "Arthur Russell",
         "record": "Calling Out Of Context",
         "like": "Really Like",
-        "image":  "./assets/images_full/36_arthurRussell.jpg"
+        "time": "2000s",
+        "image": "./assets/images_full/36_arthurRussell.jpg"
     },
     {
         "title": "You Know I'm Down",
         "artist": "Frog",
         "record": "Count Bateman",
         "like": "Like",
-        "image":  "./assets/images_full/37_frog.jpg"
+        "time": "2010s",
+        "image": "./assets/images_full/37_frog.jpg"
     },
     {
         "title": "Tendency Right Foot Forward",
         "artist": "Kleenex Girl Wonder",
         "record": "Ponyoak",
         "like": "Really Like",
-        "image":  "./assets/images_full/38_kleenex.jpg"
+        "time": "1990s",
+        "image": "./assets/images_full/38_kleenex.jpg"
     },
     {
         "title": "Your Love is Weird",
         "artist": "Beck",
         "record": "One Foot in the Grave",
         "like": "Really Like",
-        "image":  "./assets/images_full/39_beck.jpg"
+        "time": "1990s",
+        "image": "./assets/images_full/39_beck.jpg"
     },
     {
         "title": "Ex-Boyfriend Beat",
         "artist": "Skinned Teen",
         "record": "Bazooka Smooth!",
         "like": "Like",
-        "image":  "./assets/images_full/30_skinnedTeen.jpg"
+        "time": "1990s",
+        "image": "./assets/images_full/30_skinnedTeen.jpg"
     },
     {
         "title": "You Know More Than I know",
         "artist": "John Cale",
         "record": "Fear",
         "like": "Like",
-        "image":  "./assets/images_full/41_johnCale.jpg"
+        "time": "1970s",
+        "image": "./assets/images_full/41_johnCale.jpg"
     },
     {
         "title": "Goodbye Girls",
         "artist": "Broadcast",
         "record": "Tender Buttons",
         "like": "Like",
-        "image":  "./assets/images_full/40_broadcast.jpg"
+        "time": "2000s",
+        "image": "./assets/images_full/40_broadcast.jpg"
     },
     {
         "title": "Sleeping with the Devil is Bliss",
         "artist": "Helvetia",
         "record": "Gladness II 2001-2006",
         "like": "Really Like",
-        "image":  "./assets/images_full/42_helvetia.jpg"
+        "time": "2000s",
+        "image": "./assets/images_full/42_helvetia.jpg"
     },
     {
         "title": "I Want You",
         "artist": "Bob Dylan",
         "record": "Blonde on Blonde",
         "like": "Really Like",
-        "image":  "./assets/images_full/43_bobDylan.jpg"
+        "time": "1960s",
+        "image": "./assets/images_full/43_bobDylan.jpg"
     },
     {
         "title": "Tomorrow's Gone",
         "artist": "Charlie Megira",
         "record": "The Abtomatic Miesterzinger Mambo Chic",
         "like": "Really Like",
-        "image":  "./assets/images_full/44_charlieMegira.jpg"
+        "time": "2000s",
+        "image": "./assets/images_full/44_charlieMegira.jpg"
     },
     {
         "title": "Maura",
         "artist": "Wednesday",
         "record": "I Was Trying to Describe You to Someone",
         "like": "Like",
-        "image":  "./assets/images_full/45_wednesday.jpg"
+        "time": "2020s",
+        "image": "./assets/images_full/45_wednesday.jpg"
     },
     {
         "title": "I Wish You Were Here",
         "artist": "Al Green",
         "record": "Al Green Is Love",
         "like": "Really Like",
-        "image":  "./assets/images_full/46_alGreen.jpg"
+        "time": "1970s",
+        "image": "./assets/images_full/46_alGreen.jpg"
     },
     {
         "title": "Calvary Scars Ll / Aux. Out",
         "artist": "Deerhunter",
         "record": "Weird Era Cont",
         "like": "Really Like",
-        "image":  "./assets/images_full/47_deerhunter.jpg"
+        "time": "2000s",
+        "image": "./assets/images_full/47_deerhunter.jpg"
     },
     {
         "title": "Include Me Out",
         "artist": "Young Marble Giants",
         "record": "Colassal Youth",
         "like": "Really Like",
-        "image":  "./assets/images_full/48_youngMarble.jpg"
+        "time": "2000s",
+        "image": "./assets/images_full/48_youngMarble.jpg"
     },
     {
         "title": "Third Uncle",
         "artist": "Brain Eno",
         "record": "Taking Tiger Mountain",
         "like": "Really Like",
-        "image":  "./assets/images_full/49_brianEno.jpg"
+        "time": "1970s",
+        "image": "./assets/images_full/49_brianEno.jpg"
     },
     {
         "title": "In the City",
         "artist": "Anika",
         "record": "Anika",
         "like": "Really Like",
-        "image":  "./assets/images_full/50_anika.jpg"
+        "time": "2010s",
+        "image": "./assets/images_full/50_anika.jpg"
     },
-
     {
         "title": "Pancake",
         "artist": "Swirlies",
         "record": "Blonder Tongue Audio Baton",
         "like": "Really Like",
-        "image":  "./assets/images_full/51_swirlies.jpg"
+        "time": "1990s",
+        "image": "./assets/images_full/51_swirlies.jpg"
     },
     {
         "title": "Sea Life Sandwich Boy",
         "artist": "Horsegirl",
         "record": "Sea Life Sandwich Boy",
         "like": "Really Like",
-        "image":  "./assets/images_full/53_horsegirl.jpg"
+        "time": "2020s",
+        "image": "./assets/images_full/53_horsegirl.jpg"
     },
     {
         "title": "New Town",
         "artist": "Life Without Buildings",
         "record": "Any Other City",
         "like": "Really Like",
-        "image":  "./assets/images_full/54_lifeWithoutBuildings.jpg"
+        "time": "2000s",
+        "image": "./assets/images_full/54_lifeWithoutBuildings.jpg"
     },
     {
         "title": "Noise",
         "artist": "Beat Happening",
         "record": "You Turn Me On",
         "like": "Like",
-        "image":  "./assets/images_full/55_beatHappening.jpg"
+        "time": "1990s",
+        "image": "./assets/images_full/55_beatHappening.jpg"
     },
     {
         "title": "Introduction for Charlie",
-        "artist": "Melt Banana",
+        "artist": "Melt  Banana",
         "record": "Charlie",
         "like": "Like",
-        "image":  "./assets/images_full/56_meltBanana.jpg"
+        "time": "1990s",
+        "image": "./assets/images_full/56_meltBanana.jpg"
     }
 ]

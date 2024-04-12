@@ -26,21 +26,26 @@ function flipThroughImages() {
 flipThroughImages();
 
 
-let allSongs = [];
-let allLikes = [];
 
 document.addEventListener("DOMContentLoaded", function(){
+    let allSongs = [];
+    let allLikes = [];
+    let allTimes = [];
+
     fetch("./data.json")
-    .then ((response)=> response.json())
-    .then((items) =>{
-        items.forEach((item) => { 
-            if(!allSongs.includes(item.title) && item.title){
+    .then((response) => response.json())
+    .then((items) => {
+        items.forEach((item) => {
+            if (!allSongs.includes(item.title) && item.title) {
                 allSongs.push(item.title);
             }
-            if(!allLikes.includes(item.like) && item.like){
-                allLikes.push(item.like)
+            if (!allLikes.includes(item.like) && item.like) {
+                allLikes.push(item.like);
             }
-    
+            if (!allTimes.includes(item.time) && item.time) {
+                allTimes.push(item.time);
+            }
+
             let songDescriptionWrapper = document.createElement('div');
             songDescriptionWrapper.classList.add("song-description-wrapper");
             songDescriptionWrapper.classList.add("hidden");
@@ -52,6 +57,7 @@ document.addEventListener("DOMContentLoaded", function(){
             let song = document.createElement('div');
             song.innerText = item.title;
             song.setAttribute('data-like', item.like);
+            song.setAttribute('data-time', item.time);
             song.classList.add('song');
 
             let artist = document.createElement('div');
@@ -71,66 +77,56 @@ document.addEventListener("DOMContentLoaded", function(){
             indexContainer.appendChild(songDescriptionWrapper);
         });
 
+        allLikes.forEach((like) => {
+            createButton(like, "like", allTimes);
+        });
 
-        allLikes.forEach((like, index)=>{
-            let likeButton = document.createElement("button");
-            let buttonContainer=document.querySelector(".button-container")
-            likeButton.innerText = like
-            likeButton.setAttribute("data-like", like)
-            buttonContainer.append(likeButton)
-
-            likeButton.addEventListener("click", (e)=>{
-                let buttonLike = e.target.dataset.like;
-
-                // I was dying over these buttons. I really don't know why. 
-                //Taking the L. Thank you to chatgpt for this. 
-                // I really did so many things for these damn buttons. 
-                //A computer will run my life soon. And I will let it if it lets me make a button that works.
-                let songs = document.querySelectorAll('.song');
-                songs.forEach(song => {
-                    if (song.getAttribute('data-like') === buttonLike) {
-                        song.parentNode.classList.remove('hidden');
-                    } else {
-                        song.parentNode.classList.add('hidden');
-                    }
-                });
-            });
+        allTimes.forEach((time) => {
+            createButton(time, "time", allLikes);
         });
     });
-});
 
+    function createButton(data, attribute, exclusionList) {
+        let button = document.createElement("button");
+        button.innerText = data;
+        button.setAttribute(`data-${attribute}`, data);
+        let buttonContainer = document.querySelector(".button-container");
+        buttonContainer.appendChild(button);
 
+        button.addEventListener("click", () => {
+            let selectedData = button.getAttribute(`data-${attribute}`);
 
-let titleButton = document.querySelector(".title-index");
-let index = document.querySelector('.song-description-wrapper');
-let buttonContainer = document.querySelector(".button-container");
-
-titleButton.addEventListener("click", (e) => {
-
-
-
-    let gif = document.querySelector('.image-container'); 
-
-    let songDescriptionWrappers = document.querySelectorAll('.song-description-wrapper');
-    let buttonContainer = document.querySelector('.button-container')
-
-    if (gif.classList.contains('hidden')){
-        gif.classList.remove('hidden')
-        buttonContainer.style.backgroundColor = 'white'; 
-        songDescriptionWrappers.forEach(wrapper=>{
-            wrapper.classList.add('hidden');
-          
-        
-        })
-       
-    } else{
-        gif.classList.add('hidden')
-        buttonContainer.style.backgroundColor = '#7D6882'; 
-        songDescriptionWrappers.forEach(wrapper=>{
-            wrapper.classList.remove('hidden');
-            
-        })
+            let songs = document.querySelectorAll('.song');
+            songs.forEach((song) => {
+                if (song.getAttribute(`data-${attribute}`) === selectedData) {
+                    song.parentNode.classList.remove('hidden');
+                } else {
+                    song.parentNode.classList.add('hidden');
+                }
+            });
+        });
     }
 
-});
+    let titleButton = document.querySelector(".title-index");
+    let index = document.querySelector('.song-description-wrapper');
+    let buttonContainer = document.querySelector(".button-container");
 
+    titleButton.addEventListener("click", (e) => {
+        let gif = document.querySelector('.image-container');
+        let songDescriptionWrappers = document.querySelectorAll('.song-description-wrapper');
+
+        if (gif.classList.contains('hidden')) {
+            gif.classList.remove('hidden');
+            buttonContainer.style.backgroundColor = 'white';
+            songDescriptionWrappers.forEach(wrapper => {
+                wrapper.classList.add('hidden');
+            });
+        } else {
+            gif.classList.add('hidden');
+            buttonContainer.style.backgroundColor = '#7D6882';
+            songDescriptionWrappers.forEach(wrapper => {
+                wrapper.classList.remove('hidden');
+            });
+        }
+    });
+});

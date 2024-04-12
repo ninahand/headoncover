@@ -50,6 +50,10 @@ html{
 }
 
 .image-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     height: 90vh;
     overflow-x: auto; 
     display: flex;
@@ -70,7 +74,9 @@ html{
 
 .index-container {
     display: grid;
-    width: 40vw;
+    overflow: scroll;
+    height: 90vh;
+    width: 100vw;
     grid-template-columns: repeat(3, 1fr);
     margin: 2% 0% 2% 0%;
 
@@ -97,10 +103,6 @@ html{
 
     font-size: 1.4rem;
 }
-.artist {
-   
-
-}
 
 .record{
     font-size: 1.3rem;
@@ -118,11 +120,11 @@ html{
         visibility: visible;
     }
 }
-
-.button-container button {
-    /* Remove the color styling */
-    /* color: white; */
-    /* Other styles remain unchanged */
+.button-container{
+    width: 30vw;
+    height: 20vh;
+    margin-top: 4%;
+    height: 30vh;
 }
 .button-container button {
  
