@@ -56,6 +56,7 @@ document.addEventListener("DOMContentLoaded", function(){
             let song = document.createElement('div');
             song.innerText = item.title;
             song.setAttribute('data-like', item.like);
+            song.setAttribute('data-time', item.time);
             song.classList.add('song');
 
             let artist = document.createElement('div');
@@ -100,6 +101,8 @@ document.addEventListener("DOMContentLoaded", function(){
                 });
             });
         });
+
+        
         allTimes.forEach((time, index) => {
             let timeButton = document.createElement("button");
             let buttonContainer = document.querySelector(".button-container");
@@ -114,7 +117,10 @@ document.addEventListener("DOMContentLoaded", function(){
             
                 let songs = document.querySelectorAll('.song');
                 songs.forEach(song => {
+                    console.log('song', song);
+                    console.log('buttonTime', buttonTime);
                     if (song.getAttribute('data-time') === buttonTime) {
+                        console.log('time match');
                         song.parentNode.classList.remove('hidden');
                     } else {
                         song.parentNode.classList.add('hidden');
