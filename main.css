@@ -141,3 +141,47 @@ html{
 
 }
 
+
+
+
+@media screen and (min-width: 950px){
+}
+
+@media screen and (min-width: 500px) and (max-width: 949px){
+   .image-container{ 
+    width: 80%;
+      }
+   .image-container img {
+    height: 80%; 
+    }
+    .footing-container{
+
+        margin-bottom: 1%;
+    }
+    .index-container{
+        grid-template-columns: repeat(2, 1fr);
+        margin: 2% 0% 2% 0%;
+    }
+
+    .cover{
+    width: 30vw;
+
+    }
+    .button-container{
+        display:flex;
+        flex-wrap: wrap;
+        width: 30vw;
+        height: auto;
+        margin-top: 4%;
+ 
+    }
+}
+
+@media screen and (max-width: 499px){
+    .mobile-video, .mobile-words{
+        display: block;
+    }
+    .flex-container{
+        flex-direction: column;
+    }
+}
